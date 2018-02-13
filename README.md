@@ -11,9 +11,10 @@ Tutorial to demonstrate Point Cloud visualization
 After following the above instructions, you should be able to see two executable files inside build directory.
 
 ## Steps to run the project
-Make sure to follow the setps to compile the project. The project contains following two files:
+Make sure to follow the setps to compile the project. The project contains following three files:
 1. **simple_visualizer**: Go inside `build` directory and run it directly i.e., `./simple_visualizer`
 1. **advance_visualizer**: Go inside `build` directory and run it directly i.e., `./advance_visualizer`
+1. ***pick_point**: Go inside `build` directory and run it by providing PCD file as input i.e., `./pick_point capture.pcd`
 
 ## Tips
 1. Press `h` key in order to see more controls, such as take screenshot etc.
