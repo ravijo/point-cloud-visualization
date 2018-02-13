@@ -13,3 +13,6 @@ target_link_libraries (simple_visualizer ${PCL_LIBRARIES})
 
 add_executable (advance_visualizer src/advance_visualizer.cpp)
 target_link_libraries (advance_visualizer ${PCL_LIBRARIES})
+
+add_executable (pick_point src/pick_point.cpp)
+target_link_libraries (pick_point ${PCL_LIBRARIES})
