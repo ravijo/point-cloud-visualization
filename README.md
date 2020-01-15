@@ -21,3 +21,6 @@ Make sure to follow the setps to compile the project. The project contains follo
 1. To pick a point in cloud, hold down `SHIFT` key while left-clicking. 
 1. In order to change the camera angle, camera pose can also be provided as a part of command line argument as following:
 `./advance_visualizer -cam 0.026123,26.123/-0.00599269,0.00252074,1.00064/0.160405,0.457474,-1.54746/0.0138908,-0.984493,-0.17487/0.8575/1863,1176/57,24`
+
+## Issues (or Error Reporting)
+Please check [here](https://github.com/ravijo/point-cloud-visualization/issues) and create issues accordingly.
