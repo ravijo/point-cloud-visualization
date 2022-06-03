@@ -1,20 +1,39 @@
 # point-cloud-visualizer
-Tutorial to demonstrate Point Cloud visualization
+Tutorial to demonstrate visualization of Point Clouds in PCL
 
-## Setps to compile the project
-1. Make sure to download compelte repository. Use `git clone` or download directory as per convenience
-1. Now go to the project `cd point-cloud-visualization`
-1. In order to compile the project, make `build` direcoty first. Use following command `mkdir build`
-1. Go inside the build directory. Use following command `cd build`
-1. Run `cmake` tool. Use following command `cmake ..`
-1. Run `make` tool. Use following command `make`
-After following the above instructions, you should be able to see two executable files inside build directory.
+## Compilation
+```console
+$ git clone https://github.com/ravijo/point-cloud-visualization.git
+$ cd point-cloud-visualization
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+```
+After following the above instructions, you should be able to see two executable files inside the build directory.
 
-## Steps to run the project
-Make sure to follow the setps to compile the project. The project contains following three files:
-1. **simple_visualizer**: Go inside `build` directory and run it directly i.e., `./simple_visualizer`
-1. **advance_visualizer**: Go inside `build` directory and run it directly i.e., `./advance_visualizer`
-1. **pick_point**: Go inside `build` directory and run it by providing PCD file as input i.e., `./pick_point capture.pcd`
+## Project Structure
+The project contains the following files:
+1. simple_visualizer.cpp
+    ```console
+    $ cd build
+    $ ./simple_visualizer
+    ```
+2. advance_visualizer.cpp
+    ```console
+    $ cd build
+    $ ./advance_visualizer
+    ```
+3. pick_point.cpp
+    ```console
+    $ cd build
+    $ ./pick_point capture.pcd
+    ```
+4. surface_normal_visualizer.cpp
+    ```console
+    $ cd build
+    $ ./surface_normal_visualizer
+    ```
 
 ## Tips
 1. Press `h` key in order to see more controls, such as take screenshot etc.
