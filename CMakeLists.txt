@@ -16,3 +16,6 @@ target_link_libraries (advance_visualizer ${PCL_LIBRARIES})
 
 add_executable (pick_point src/pick_point.cpp)
 target_link_libraries (pick_point ${PCL_LIBRARIES})
+
+add_executable (surface_normal_visualizer src/surface_normal_visualizer.cpp)
+target_link_libraries (surface_normal_visualizer ${PCL_LIBRARIES})
