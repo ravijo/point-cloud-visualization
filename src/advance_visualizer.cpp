@@ -82,7 +82,7 @@ int main (int argc, char** argv)
 
     viewer.setBackgroundColor (0.5, 0.5, 0.5, 0);
     viewer.initCameraParameters ();
-    //viewer.addCoordinateSystem (1.0);
+    viewer.addCoordinateSystem (1.0);
 
     //0.026123,26.123/-0.00599269,0.00252074,1.00064/0.160405,0.457474,-1.54746/0.0138908,-0.984493,-0.17487/0.8575/1863,1176/57,24
     bool result = viewer.getCameraParameters(argc, argv);
