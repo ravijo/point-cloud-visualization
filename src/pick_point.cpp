@@ -70,6 +70,7 @@ int main(int argc, char** argv)
     viewer.addPointCloud(pointCloudXYZRGB, "pointCloudXYZRGB");
     viewer.initCameraParameters();
     bool result = viewer.getCameraParameters(argc, argv);
+    viewer.addCoordinateSystem (1.0);
 
     viewer.registerKeyboardCallback(keyboardEventOccurred, (void*)&viewer);
     viewer.registerPointPickingCallback(pointPickingEventOccurred, (void*)&viewer);
